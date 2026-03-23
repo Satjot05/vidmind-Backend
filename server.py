@@ -8,7 +8,7 @@ import http.cookiejar
 app = Flask(__name__)
 CORS(app, origins="*")
 
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")  #add comma and then paste the api key from gitignore file in "double quotes" in the bracket #
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 COOKIE_PATH  = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cookies.txt")
 
