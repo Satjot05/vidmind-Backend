@@ -1,2 +1,2 @@
-For the whole process 
-Please refer to vidmind Repository for step by step working.
+This is just Backend server
+For Whole Process, Please refer to https://github.com/Satjot05/Vidmind
